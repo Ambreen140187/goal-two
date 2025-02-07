@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import ProtectedRoute from "../components/ProtectedRoute";
+import ProtectedRoute from "../../components/ProtectedRoute";
 import { client } from "@/sanity/lib/client";
 import Swal from "sweetalert2";
 import { urlFor } from "@/sanity/lib/image";
